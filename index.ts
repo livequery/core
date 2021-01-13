@@ -14,4 +14,4 @@ export {
     REF_ALIASES
 } from './src/SocketGateway'
 
-export { Livequery, LivequeryRequest,QueryFilterParser } from './src/QueryFilterParser'
+export { Livequery, LivequeryRequest, QueryFilterParser } from './src/QueryFilterParser'
