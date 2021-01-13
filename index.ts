@@ -1,5 +1,6 @@
+export { RemixInterceptor } from "./src/interceptors/remix.interceptor";
+export { LivequeryInterceptor } from "./src/interceptors/livequery.interceptor";
 export { Array2Map } from "./src/helpers/Array2Map";
-
 export { DecoratorBuilder } from "./src/decorators/DecoratorBuilder";
 export { LivequeryBinding } from "./src/decorators/LivequeryBinding";
 export { Remix } from "./src/decorators/Remix";
@@ -12,4 +13,3 @@ export {
     SocketGateway,
     REF_ALIASES
 } from './src/SocketGateway'
-
