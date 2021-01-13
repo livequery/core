@@ -1,9 +1,9 @@
 {
     "name": "@livequery/core",
     "repository": {
-        "url": "https://github.com/duongvanba/react-livequery-hooks"
+        "url": "git@github.com:livequery/core.git"
     },
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "",
     "main": "build/index.js",
     "types": "build/index.d.ts",
