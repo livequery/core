@@ -1,5 +1,5 @@
-import { HideFields } from "./src/decorators/HideFields";
-import { ShowOnly } from "./src/decorators/ShowOnly";
+export { HideFields } from "./src/decorators/HideFields";
+export { ShowOnly } from "./src/decorators/ShowOnly";
 
 export { RemixInterceptor } from "./src/interceptors/remix.interceptor";
 export { LivequeryInterceptor } from "./src/interceptors/livequery.interceptor";
