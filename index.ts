@@ -1,3 +1,6 @@
+import { HideFields } from "./src/decorators/HideFields";
+import { ShowOnly } from "./src/decorators/ShowOnly";
+
 export { RemixInterceptor } from "./src/interceptors/remix.interceptor";
 export { LivequeryInterceptor } from "./src/interceptors/livequery.interceptor";
 export { Array2Map } from "./src/helpers/Array2Map";
