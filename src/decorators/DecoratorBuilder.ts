@@ -26,7 +26,7 @@ export class DecoratorBuilder<T> {
             Reflect.defineMetadata(token, map, target)
         }
         methodWrapper && this.hooks.push(target => {
-            const map = Reflect.getMetadata(token, target) as Map<string, T[]>
+            const map = Reflect.getMetadata(token, target) as Map<string, T[]> || []
             for (const [method, list] of map) {
                 list.map(options => methodWrapper(target, method, options))
             }
