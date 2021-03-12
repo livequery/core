@@ -41,7 +41,7 @@ export const QueryFilterParser = (request: Request) => {
         cursor,
         refs,
         ref,
-        sort: request.query.sort == 'asc' ? 'asc' : 'desc',
+        sort: request.query._sort == 'asc' ? 'asc' : 'desc',
         target_id,
         params: request.params,
         isCollection,
